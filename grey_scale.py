@@ -2,8 +2,8 @@ import sys
 import os
 import numpy as np
 import cv2
-''' opencv2 opens a image file and creates a vector of type (x,y,[r,g,b])
-    to convert the image into grey scale we need to store only one value
+''' opencv2 opens a image file and creates a vector of type (x,y,[r,g,b]).
+    To convert the image into grey scale we need to store only one value
     of the rgb. The best way to do so is to store in format (x,y). The
     color value at (x,y) should be avg of [r,g,b] value
 '''
